@@ -4,10 +4,18 @@ body{
 }
 .h1{
     font-family: 'Abril Fatface', cursive;
+    
 }
 .h1_2{
     font-family: 'Merriweather', serif;
 }
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 30px;
+}
+
 .name-highlight{
     color: orange;
 }
@@ -22,6 +30,7 @@ body{
 }
 p{
     text-align: justify;
+    color: dimgray;
 }
 .top-banner{
     background-image: url("images/top-banner.png");
@@ -29,6 +38,7 @@ p{
 }
 section{
     height: 500px;
+    padding-bottom: 100px;
 }
 .link-button {
     text-decoration: none;
@@ -37,4 +47,13 @@ section{
     border-radius: 5px;
     color: whitesmoke;
     font-weight: 700;
+}
+.font-style{
+    font-family: 'Lobster', cursive;
+    font-size: larger;
+}
+.dream-area{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
